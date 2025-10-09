@@ -21,9 +21,9 @@ publishMods {
         if (mod.isFabric) requires("fabric-api")
     }
 
-    curseforge {
-        clientRequired = true // Set as needed
-        serverRequired = false // Set as needed
-        if (mod.isFabric) requires("fabric-api")
-    }
+//    curseforge {
+//        clientRequired = true // Set as needed
+//        serverRequired = false // Set as needed
+//        if (mod.isFabric) requires("fabric-api")
+//    }
 }

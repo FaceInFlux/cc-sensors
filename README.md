@@ -2,14 +2,14 @@
 
 Set up a new multi-loader, multi-version mod project with Stonecraft.
 
-- [ ] Update the gradle.properties file with your mod details
-- [ ] Update the settings.gradle.kts file with the versions you want to support and the mod name on the bottom
-- [ ] Rename the group folders in the src folder to match your mod.group
-- [ ] Rename the `yourmodid.accesswidener` file in `src/main/resources` to match your actual mod.id
-- [ ] Update the .releaserc.json file's discord notification section with your mod details - or remove the section if you don't want it
-- [ ] Check if the java version is what you want it to be in `.github/workflows/build.yml` (`java-version: 21`)
-- [ ] Check if you need the datagen step in the `.github/workflows/build.yml` file. If you don't, remove it.
-- [ ] If you're not running gametests (which you should), then remove all references to `chiseledGameTest` in the `.github/workflows/build.yml` file
+- [X] Update the gradle.properties file with your mod details
+- [X] Update the settings.gradle.kts file with the versions you want to support and the mod name on the bottom
+- [X] Rename the group folders in the src folder to match your mod.group
+- [X] Rename the `yourmodid.accesswidener` file in `src/main/resources` to match your actual mod.id
+- [X] Update the .releaserc.json file's discord notification section with your mod details - or remove the section if you don't want it
+- [X] Check if the java version is what you want it to be in `.github/workflows/build.yml` (`java-version: 21`)
+- [X] Check if you need the datagen step in the `.github/workflows/build.yml` file. If you don't, remove it.
+- [X] If you're not running gametests (which you should), then remove all references to `chiseledGameTest` in the `.github/workflows/build.yml` file
 - [ ] Set up the environment variables in GitHub
 
 ## Bootstrap with GitHub Actions

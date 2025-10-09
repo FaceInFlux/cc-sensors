@@ -25,11 +25,13 @@ stonecutter {
             for (it in loaders) vers("$version-$it", version)
         }
 
+        mc("1.21.8", "fabric", "neoforge")
         mc("1.21.4", "fabric", "neoforge")
+        mc("1.20.1", "fabric", "forge")
 
         vcsVersion = "1.21.4-fabric"
     }
     create(rootProject)
 }
 
-rootProject.name = "YourModName"
+rootProject.name = "CC Sensory"

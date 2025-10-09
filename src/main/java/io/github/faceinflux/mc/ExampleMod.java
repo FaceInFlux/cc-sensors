@@ -1,4 +1,4 @@
-package com.example;
+package io.github.faceinflux.mc;
 /*? if fabric {*/
 import net.fabricmc.api.ModInitializer;
 /*?}*/
