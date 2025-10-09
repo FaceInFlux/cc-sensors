@@ -32,4 +32,4 @@ stonecutter {
     create(rootProject)
 }
 
-rootProject.name = "CC Sensors"
+rootProject.name = "YourModName"

@@ -1,4 +1,4 @@
-package io.github.FaceInFlux.mc;
+package com.example;
 /*? if fabric {*/
 import net.fabricmc.api.ModInitializer;
 /*?}*/
@@ -17,20 +17,20 @@ import net.neoforged.fml.common.Mod;
 /*?}*/
 
 /*? if forgeLike {*/
-/*@Mod("cc-sensorperipherals")
-public class CcSensorperipherals {*/
+/*@Mod("examplemod")
+public class ExampleMod {*/
 /*?}*/
 
 /*? if fabric {*/
-public class CcSensorperipherals implements ModInitializer {
+public class ExampleMod implements ModInitializer {
 /*?}*/
 
     /*? if forge {*/
-    /*public CcSensorperipherals(final FMLJavaModLoadingContext context) {}*/
+    /*public ExampleMod(final FMLJavaModLoadingContext context) {}*/
     /*?}*/
 
     /*? if neoforge {*/
-    /*public CcSensorperipherals(IEventBus modEventBus, ModContainer modContainer) {}*/
+    /*public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {}*/
     /*?}*/
 
     /*? if fabric {*/
