@@ -1,12 +1,12 @@
 package io.github.faceinflux.mc;
 /*? if fabric {*/
-import net.fabricmc.api.ModInitializer;
-/*?}*/
+/*import net.fabricmc.api.ModInitializer;
+*//*?}*/
 
 /*? if forge {*/
-/*import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-*/
+
 /*?}*/
 
 /*? if neoforge {*/
@@ -17,16 +17,16 @@ import net.neoforged.fml.common.Mod;
 /*?}*/
 
 /*? if forgeLike {*/
-/*@Mod("examplemod")
-public class ExampleMod {*/
+@Mod("examplemod")
+public class ExampleMod {
 /*?}*/
 
 /*? if fabric {*/
-public class ExampleMod implements ModInitializer {
-/*?}*/
+/*public class ExampleMod implements ModInitializer {
+*//*?}*/
 
     /*? if forge {*/
-    /*public ExampleMod(final FMLJavaModLoadingContext context) {}*/
+    public ExampleMod(final FMLJavaModLoadingContext context) {}
     /*?}*/
 
     /*? if neoforge {*/
@@ -34,7 +34,7 @@ public class ExampleMod implements ModInitializer {
     /*?}*/
 
     /*? if fabric {*/
-    @Override
+    /*@Override
     public void onInitialize() {}
-    /*?}*/
+    *//*?}*/
 }
